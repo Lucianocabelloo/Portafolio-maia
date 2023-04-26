@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import video from "../../assets/Video1.mp4"
 import video2 from "../../assets/Video2.mp4"
@@ -65,7 +67,6 @@ const Notices = () => {
          width="324" 
          height="800" 
          scrolling="yes" 
-         frameborder="0" 
          allowfullscreen="true" 
          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
          ></iframe>
