@@ -1,4 +1,5 @@
-import { Footer } from "./components/Footer/page";
+
+import Footer from "./components/Footer/page";
 import Gallery from "./components/Gallery/page";
 import Main from "./components/Main/page";
 import DrawerAppBar from "./components/navbar/page";
