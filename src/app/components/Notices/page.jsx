@@ -7,6 +7,10 @@ import video3 from "../../assets/Video3.mp4"
 import video4 from "../../assets/Video4.mp4"
 
 
+
+
+
+
 const Notices = () => {
 
   return (
@@ -30,6 +34,11 @@ const Notices = () => {
         </div>
         <div id='TwitterZone' className='mobile:w-full tablet:w-[60%] desktop:w-full flex mobile:justify-center tablet:justify-end'>
         <iframe className='tablet:w-[full] desktop:w-[60%] mobile:w-[350px]' src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flegisladoramaia&tabs=timeline&width=324&height=1200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=566789815545219"
+         width="324" 
+         height="800" 
+         scrolling="yes"
+         allowFullScreen={true}
+         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
          ></iframe>
         </div>
 

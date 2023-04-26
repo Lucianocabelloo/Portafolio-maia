@@ -30,7 +30,7 @@ function DrawerAppBar(props) {
     <Box  className="modificar h-full text-white p-0" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h5" sx={{ my: 2 }}>
       <div className="flex justify-center items-center w-fit flex-col p-0  ">
-            <Image src={Logo} alt="Logo De Maia Martinez Legisladora"/>
+            <Image src={Logo} alt="Logo De Maia Martinez Legisladora" height="auto" width="auto"/>
             <h3>Martinez Legisladora</h3>
             </div>
       </Typography>
