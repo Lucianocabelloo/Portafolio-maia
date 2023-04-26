@@ -1,6 +1,4 @@
-'use client'
-
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import video from "../../assets/Video1.mp4"
 import video2 from "../../assets/Video2.mp4"
 import video3 from "../../assets/Video3.mp4"
@@ -43,11 +41,6 @@ const notices = [
 
 const Notices = () => {
 
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
   return (
     <div id='Notices' className='flex w-full mt-4  mobile:flex-col tablet:flex-row'>
 
