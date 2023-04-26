@@ -27,9 +27,9 @@ function DrawerAppBar(props) {
   };
 
   const drawer = (
-    <Box className="bg-RosaMaia h-full text-white p-0" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box  className="modificar h-full text-white p-0" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h5" sx={{ my: 2 }}>
-      <div className="flex justify-center items-center w-fit flex-col p-0">
+      <div className="flex justify-center items-center w-fit flex-col p-0  ">
             <Image src={Logo} alt="Logo De Maia Martinez Legisladora"/>
             <h3>Martinez Legisladora</h3>
             </div>
@@ -58,7 +58,7 @@ function DrawerAppBar(props) {
   return (
     <Box className="p-0" sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav" className=' bg-RosaMaia m-0'>
+      <AppBar component="nav" className='modificar m-0'>
         <Toolbar>
           <IconButton
             color="inherit"

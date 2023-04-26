@@ -25,3 +25,7 @@ body{
 ._2lqg{
   width: 100%;
 }
+
+.modificar{
+  background-color: rgb(206 113 224/var(--tw-bg-opacity))!important;
+}
