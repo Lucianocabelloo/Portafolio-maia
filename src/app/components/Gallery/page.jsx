@@ -17,7 +17,7 @@ import Galeria6 from "../../assets/Galeria6.jpg"
 const page = () => {
   return (
   <div className="">
-    <h2 id='Gallery' className=' text-center m-5'>Galeria de Fotos</h2>
+    <h2 id='Gallery' className=' text-center m-5 text-[2rem] font-bold text-RosaMaia shadow'>Galeria de Fotos</h2>
      <Carousel
      autoPlay={true}
      showArrows={true}
@@ -25,28 +25,28 @@ const page = () => {
      infiniteLoop={true}
      stopOnHover={true} >
                 <div className=' h-full'>
-                    <Image className='' src={Galeria1} alt="Hola" />
+                    <Image className='' src={Galeria1} alt="Maia visita a escuela de burruyacu donde entrego artefactos para el confort de los alumnos" />
                     <p className="legend text-lg">Maia visita a escuela de burruyacu donde entrego artefactos para el confort de los alumnos</p>
                 </div>
                 <div className=' h-full'>
-                    <Image className=''  src={Galeria2} alt="Hola" />
-                    <p className="legend">Legend 1</p>
+                    <Image className=''  src={Galeria2} alt="Maia junto con alumnas de la Escuela N° 34" />
+                    <p className="legend">Maia junto con alumnas de la Escuela N° 34</p>
                 </div>
                 <div className=' h-full'>
-                    <Image className='' src={Galeria3} alt="Hola" />
-                    <p className="legend">Legend 1</p>
+                    <Image className='' src={Galeria3} alt="Maia junto con otros candidatos de el espacio politico apoyando a Bernarda Diaz y Alejandro Moreno candidatos a delegada y subdelegada de San Pedro de Colalao" />
+                    <p className="legend">Maia junto con otros candidatos de el espacio politico apoyando a Bernarda Diaz y Alejandro Moreno candidatos a delegada y subdelegada de San Pedro de Colalao</p>
                 </div>
                 <div className=' h-full'>
-                    <Image className='' src={Galeria4} alt="Hola" />
-                    <p className="legend">Legend 1</p>
+                    <Image className='' src={Galeria4} alt="Largada simbólica de la Segunda fecha del Rally Tucumano" />
+                    <p className="legend">Largada simbólica de la Segunda fecha del Rally Tucumano.</p>
                 </div>
                 <div className=' h-full'>
-                    <Image className='' src={Galeria5} alt="Hola" />
-                    <p className="legend">Legend 1</p>
+                    <Image className='' src={Galeria5} alt="Largada simbólica de la Segunda fecha del Rally Tucumano" />
+                    <p className="legend">Largada simbólica de la Segunda fecha del Rally Tucumano.1</p>
                 </div >
                 <div className=' h-full'>
-                    <Image className='' src={Galeria6} alt="Hola" />
-                    <p className="legend">Legend 1</p>
+                    <Image className='' src={Galeria6} alt="Largada simbólica de la Segunda fecha del Rally Tucumano" />
+                    <p className="legend">Largada simbólica de la Segunda fecha del Rally Tucumano.</p>
                 </div>
             </Carousel>
   </div>

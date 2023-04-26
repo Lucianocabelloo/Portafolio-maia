@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <DrawerAppBar/>
-    <main className="flex min-h-screen flex-col items-center desktop:my-8 desktop:mx-24 tablet:my-0  tablet:mx-0 bg-slate-">
+    <main className="flex min-h-screen flex-col items-center desktop:my-8 desktop:mx-24 tablet:my-0  tablet:mx-0 bg-slate-200">
       <Main/>
       <Gallery/>
       <Notices/>

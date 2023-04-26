@@ -10,7 +10,7 @@ const facebook = <svg height={50} width={50} xmlns="http://www.w3.org/2000/svg" 
 
 const Main = () => {
   return (
-    <div id='#Inicio' className='HeroBanner flex items-center bg-white w-full  gap-10 desktop:text-left mobile:flex-col mobile:text-center mobile:gap-5 laptop:flex-row desktop: justify-evenly'>
+    <div id='#Inicio' className='HeroBanner p-4 flex items-center bg-white w-full  gap-10 desktop:text-left mobile:flex-col mobile:text-center mobile:gap-5 laptop:flex-row desktop: justify-evenly'>
         <div>
 
         </div>
