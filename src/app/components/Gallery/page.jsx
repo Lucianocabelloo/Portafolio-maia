@@ -25,27 +25,27 @@ const page = () => {
      infiniteLoop={true}
      stopOnHover={true} >
                 <div className=' h-full'>
-                    <Image className='' src={Galeria1} alt="Maia visita a escuela de burruyacu donde entrego artefactos para el confort de los alumnos" />
+                    <Image className='' src={Galeria1} height="auto" width="auto" alt="Maia visita a escuela de burruyacu donde entrego artefactos para el confort de los alumnos" />
                     <p className="legend text-lg">Maia visita a escuela de burruyacu donde entrego artefactos para el confort de los alumnos</p>
                 </div>
                 <div className=' h-full'>
-                    <Image className=''  src={Galeria2} alt="Maia junto con alumnas de la Escuela N° 34" />
+                    <Image className=''  src={Galeria2}  height="auto" width="auto" alt="Maia junto con alumnas de la Escuela N° 34" />
                     <p className="legend">Maia junto con alumnas de la Escuela N° 34</p>
                 </div>
                 <div className=' h-full'>
-                    <Image className='' src={Galeria3} alt="Maia junto con otros candidatos de el espacio politico apoyando a Bernarda Diaz y Alejandro Moreno candidatos a delegada y subdelegada de San Pedro de Colalao" />
+                    <Image className='' src={Galeria3} height="auto" width="auto" alt="Maia junto con otros candidatos de el espacio politico apoyando a Bernarda Diaz y Alejandro Moreno candidatos a delegada y subdelegada de San Pedro de Colalao" />
                     <p className="legend">Maia junto con otros candidatos de el espacio politico apoyando a Bernarda Diaz y Alejandro Moreno candidatos a delegada y subdelegada de San Pedro de Colalao</p>
                 </div>
                 <div className=' h-full'>
-                    <Image className='' src={Galeria4} alt="Largada simbólica de la Segunda fecha del Rally Tucumano" />
+                    <Image className='' src={Galeria4} height="auto" width="auto" alt="Largada simbólica de la Segunda fecha del Rally Tucumano" />
                     <p className="legend">Largada simbólica de la Segunda fecha del Rally Tucumano.</p>
                 </div>
                 <div className=' h-full'>
-                    <Image className='' src={Galeria5} alt="Largada simbólica de la Segunda fecha del Rally Tucumano" />
+                    <Image className='' src={Galeria5} height="auto" width="auto" alt="Largada simbólica de la Segunda fecha del Rally Tucumano" />
                     <p className="legend">Largada simbólica de la Segunda fecha del Rally Tucumano.1</p>
                 </div >
                 <div className=' h-full'>
-                    <Image className='' src={Galeria6} alt="Largada simbólica de la Segunda fecha del Rally Tucumano" />
+                    <Image className='' src={Galeria6} height="auto" width="auto" alt="Largada simbólica de la Segunda fecha del Rally Tucumano" />
                     <p className="legend">Largada simbólica de la Segunda fecha del Rally Tucumano.</p>
                 </div>
             </Carousel>

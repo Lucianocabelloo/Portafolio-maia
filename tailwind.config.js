@@ -17,7 +17,7 @@ module.exports = {
         'RosaMaia': '#ce71e0',
       },
       screens: {
-        'mobile': '380px',
+        'mobile': '360px',
 
         'tablet': '640px',
         // => @media (min-width: 640px) { ... }

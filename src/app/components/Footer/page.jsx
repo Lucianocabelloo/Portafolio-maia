@@ -19,7 +19,7 @@ export const Footer = () => {
         <a href="https://portfolio-react-lucianocabelloo.vercel.app/"><h4 className=' text-white font-semibold text-base'>Todos los derechos reservados a <span className='  text-black'> Elece Development</span>  </h4></a>
         </div>
         <div className='text-center'>
-            <h3>Seguinos en las redes sociales</h3>
+            <h3 className=' text-white font-semibold text-base' >Seguinos en las redes sociales</h3>
             <ul className='flex justify-center  text-sm flex-row gap-4'>
                 <li>
                    <a target={'_blank'} href="https://www.facebook.com/legisladoramaia/">{facebook}</a>
